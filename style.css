@@ -45,20 +45,33 @@ html {
   width: 0px;
 }
 
-.text {
-  padding-top: 50px;
-  margin-left: -22px;
-}
-
-.triangle {
+.red-shadow {
+  background: transparent;
   height: 0px;
   width: 0px;
   border-top: 0 solid transparent;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
   border-bottom: 100px solid red;
-  /* box-shadow: 0px 9px 2px -2px #969595 */
+  box-shadow: 0px 9px 2px -2px #969595
 }
+
+
+.triangle {
+  height: 0px;
+  width: 0px;
+  border-top: 0 solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+
+.text {
+  padding-top: 50px;
+  margin-left: -22px;
+}
+
 
 .red:hover {
   border-color: transparent transparent #cc0302 transparent;
@@ -120,8 +133,8 @@ html {
 }
 
 #landing-box {
-  height: 412px;
-  width: 902px;
+  height: 415px;
+  width: 850px;
   border: 1px solid #111;
   overflow: hidden;
 }
@@ -148,14 +161,14 @@ html {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes spinner {
   0%   {left:50%; top:50%; position: absolute;}
-  50%  {height:400px; width:400px; left:25%; top:15%;  transform: rotate(720deg); z-index: 5;}
+  50%  {height:400px; width:400px; left:25%; top:15%;  transform: rotate(720deg);}
   99% {position: absolute;}
-  100% {height:100px; width:100px; z-index: 0;}
+  100% {height:100px; width:100px;}
 
 /* Standard syntax */
 @keyframes spinner {
   0%   {left:50%; top:50%; position: absolute;}
-  50%  {height:400px; width:400px; left:25%; top:15%;  transform: rotate(720deg); z-index: 5;}
+  50%  {height:400px; width:400px; left:25%; top:15%;  transform: rotate(720deg);}
   99% {position: absolute;}
-  100% {height:100px; width:100px; z-index: 0;}
+  100% {height:100px; width:100px;}
 }
