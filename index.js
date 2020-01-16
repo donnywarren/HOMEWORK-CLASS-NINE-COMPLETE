@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function createBox(color) {
     var newBox = document.createElement("div");
-    newBox.className="result-box razzle-dazzle " + color;
+    newBox.className="result-box " + color;
     newBox.onclick=function() {this.remove();};
     document.getElementById("landing-box").appendChild(newBox);
     console.log(color + " button was clicked");
