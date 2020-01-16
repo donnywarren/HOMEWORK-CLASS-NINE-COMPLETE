@@ -17,7 +17,6 @@ html {
 .selection-btn {
   height: 100px;
   width: 150px;
-  background-color: transparent;
   border: 1px solid #000;
   margin: 50px 5px;
   color: #fff;
@@ -30,13 +29,13 @@ html {
 
 
 .purple {
-  background-color: purple;
+  background-color: #940194;
 }
 .purple:hover {
-  background-color: #5f015f;
+  background-color: #6b006b;
 }
 .purple:active {
-  background-color: purple;
+  background-color: #940194;
   box-shadow: 2px 5px 4px #666;
   transform: translateY(4px);
 }
@@ -44,10 +43,6 @@ html {
 .red {
   height: 0px;
   width: 0px;
-  border-top: 0 solid transparent;
-  border-left: 47px solid transparent;
-  border-right: 47px solid transparent;
-  border-bottom: 94px solid red;
 }
 
 .text {
@@ -62,7 +57,7 @@ html {
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
   border-bottom: 100px solid red;
-  box-shadow: 0px 9px 2px -2px #969595
+  /* box-shadow: 0px 9px 2px -2px #969595 */
 }
 
 .red:hover {
